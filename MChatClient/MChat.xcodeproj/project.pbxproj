@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C49A5A31786419A8CDB380F /* libPods-MChatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A8DF91369949F909FB9EC0 /* libPods-MChatTests.a */; };
+		8CEA0F29B0B775FECA2EABA6 /* libPods-MChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF73FB286782780CDAAB0F05 /* libPods-MChat.a */; };
+		AB1D35221E4987480074D985 /* CustomerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D34F31E4987480074D985 /* CustomerController.m */; };
+		AB1D35231E4987480074D985 /* EmojiToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D34F81E4987480074D985 /* EmojiToolBar.m */; };
+		AB1D35241E4987480074D985 /* EmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D34FB1E4987480074D985 /* EmojiCell.m */; };
+		AB1D35251E4987480074D985 /* EmojiCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D34FD1E4987480074D985 /* EmojiCollectionView.m */; };
+		AB1D35261E4987480074D985 /* FunctionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D34FF1E4987480074D985 /* FunctionsView.m */; };
+		AB1D35271E4987480074D985 /* imageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35011E4987480074D985 /* imageButton.m */; };
+		AB1D35281E4987480074D985 /* imageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35031E4987480074D985 /* imageCell.m */; };
+		AB1D35291E4987480074D985 /* showImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35051E4987480074D985 /* showImgView.m */; };
+		AB1D352A1E4987480074D985 /* SinglePageEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35071E4987480074D985 /* SinglePageEmojiCell.m */; };
+		AB1D352B1E4987480074D985 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35091E4987480074D985 /* UIView+Extension.m */; };
+		AB1D352C1E4987480074D985 /* HCEmojiKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D350B1E4987480074D985 /* HCEmojiKeyboard.m */; };
+		AB1D352D1E4987480074D985 /* HCEmojiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D350D1E4987480074D985 /* HCEmojiManager.m */; };
+		AB1D352E1E4987480074D985 /* ExpandingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35111E4987480074D985 /* ExpandingCell.m */; };
+		AB1D352F1E4987480074D985 /* HCInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35131E4987480074D985 /* HCInputBar.m */; };
+		AB1D35301E4987480074D985 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB1D35141E4987480074D985 /* Resources.bundle */; };
+		AB1D35311E4987480074D985 /* UIColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35171E4987480074D985 /* UIColor+MyColor.m */; };
+		AB1D35321E4987480074D985 /* UIFont+MyFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35191E4987480074D985 /* UIFont+MyFont.m */; };
+		AB1D35331E4987480074D985 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D351B1E4987480074D985 /* UIView+Frame.m */; };
+		AB1D35341E4987480074D985 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D351D1E4987480074D985 /* Message.m */; };
+		AB1D35351E4987480074D985 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D351F1E4987480074D985 /* MessageCell.m */; };
+		AB1D35361E4987480074D985 /* MessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D35211E4987480074D985 /* MessageImageCell.m */; };
+		AB27F9B01E45895C00D87EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9AF1E45895C00D87EF6 /* main.m */; };
+		AB27F9B31E45895C00D87EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9B21E45895C00D87EF6 /* AppDelegate.m */; };
+		AB27F9B61E45895C00D87EF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9B51E45895C00D87EF6 /* ViewController.m */; };
+		AB27F9B91E45895C00D87EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB27F9B71E45895C00D87EF6 /* Main.storyboard */; };
+		AB27F9BB1E45895C00D87EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB27F9BA1E45895C00D87EF6 /* Assets.xcassets */; };
+		AB27F9BE1E45895C00D87EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB27F9BC1E45895C00D87EF6 /* LaunchScreen.storyboard */; };
+		AB27F9C91E45895C00D87EF6 /* MChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9C81E45895C00D87EF6 /* MChatTests.m */; };
+		AB27F9D41E45895C00D87EF6 /* MChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9D31E45895C00D87EF6 /* MChatUITests.m */; };
+		AB27F9E31E45933300D87EF6 /* SockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9E21E45933300D87EF6 /* SockManager.m */; };
+		AB27F9EA1E4594E600D87EF6 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9E81E4594E600D87EF6 /* RegistViewController.m */; };
+		AB27F9EB1E4594E600D87EF6 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB27F9E91E4594E600D87EF6 /* RegistViewController.xib */; };
+		AB398EF01E4A241700FC4111 /* OnLineListView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB398EEF1E4A241700FC4111 /* OnLineListView.m */; };
+		AB52C1931E4CC589000C9A06 /* LTBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB52C1921E4CC589000C9A06 /* LTBarButtonItem.m */; };
+		AB8733FA1E5364C1004CE722 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8733F91E5364C1004CE722 /* UserModel.m */; };
+		AE416AB6F506B1EEFC4C7118 /* libPods-MChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D736ED1B01232FFAFC8267BC /* libPods-MChatUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB27F9C51E45895C00D87EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB27F9A31E45895B00D87EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB27F9AA1E45895C00D87EF6;
+			remoteInfo = MChat;
+		};
+		AB27F9D01E45895C00D87EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB27F9A31E45895B00D87EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB27F9AA1E45895C00D87EF6;
+			remoteInfo = MChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CAEE9C1A06C9E231161F62 /* Pods-MChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MChatUITests/Pods-MChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94C4238D9EA893F0007C3630 /* Pods-MChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MChat/Pods-MChat.release.xcconfig"; sourceTree = "<group>"; };
+		96FB8ED80266F4DD18F52F1B /* Pods-MChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MChatTests/Pods-MChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB1D34F21E4987480074D985 /* CustomerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerController.h; sourceTree = "<group>"; };
+		AB1D34F31E4987480074D985 /* CustomerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerController.m; sourceTree = "<group>"; };
+		AB1D34F71E4987480074D985 /* EmojiToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiToolBar.h; sourceTree = "<group>"; };
+		AB1D34F81E4987480074D985 /* EmojiToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiToolBar.m; sourceTree = "<group>"; };
+		AB1D34FA1E4987480074D985 /* EmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiCell.h; sourceTree = "<group>"; };
+		AB1D34FB1E4987480074D985 /* EmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiCell.m; sourceTree = "<group>"; };
+		AB1D34FC1E4987480074D985 /* EmojiCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiCollectionView.h; sourceTree = "<group>"; };
+		AB1D34FD1E4987480074D985 /* EmojiCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiCollectionView.m; sourceTree = "<group>"; };
+		AB1D34FE1E4987480074D985 /* FunctionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionsView.h; sourceTree = "<group>"; };
+		AB1D34FF1E4987480074D985 /* FunctionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionsView.m; sourceTree = "<group>"; };
+		AB1D35001E4987480074D985 /* imageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageButton.h; sourceTree = "<group>"; };
+		AB1D35011E4987480074D985 /* imageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageButton.m; sourceTree = "<group>"; };
+		AB1D35021E4987480074D985 /* imageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageCell.h; sourceTree = "<group>"; };
+		AB1D35031E4987480074D985 /* imageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageCell.m; sourceTree = "<group>"; };
+		AB1D35041E4987480074D985 /* showImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showImgView.h; sourceTree = "<group>"; };
+		AB1D35051E4987480074D985 /* showImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showImgView.m; sourceTree = "<group>"; };
+		AB1D35061E4987480074D985 /* SinglePageEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePageEmojiCell.h; sourceTree = "<group>"; };
+		AB1D35071E4987480074D985 /* SinglePageEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePageEmojiCell.m; sourceTree = "<group>"; };
+		AB1D35081E4987480074D985 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AB1D35091E4987480074D985 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AB1D350A1E4987480074D985 /* HCEmojiKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCEmojiKeyboard.h; sourceTree = "<group>"; };
+		AB1D350B1E4987480074D985 /* HCEmojiKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCEmojiKeyboard.m; sourceTree = "<group>"; };
+		AB1D350C1E4987480074D985 /* HCEmojiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCEmojiManager.h; sourceTree = "<group>"; };
+		AB1D350D1E4987480074D985 /* HCEmojiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCEmojiManager.m; sourceTree = "<group>"; };
+		AB1D350E1E4987480074D985 /* HCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCHeader.h; sourceTree = "<group>"; };
+		AB1D35101E4987480074D985 /* ExpandingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandingCell.h; sourceTree = "<group>"; };
+		AB1D35111E4987480074D985 /* ExpandingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandingCell.m; sourceTree = "<group>"; };
+		AB1D35121E4987480074D985 /* HCInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCInputBar.h; sourceTree = "<group>"; };
+		AB1D35131E4987480074D985 /* HCInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCInputBar.m; sourceTree = "<group>"; };
+		AB1D35141E4987480074D985 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		AB1D35161E4987480074D985 /* UIColor+MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColor.h"; sourceTree = "<group>"; };
+		AB1D35171E4987480074D985 /* UIColor+MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyColor.m"; sourceTree = "<group>"; };
+		AB1D35181E4987480074D985 /* UIFont+MyFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MyFont.h"; sourceTree = "<group>"; };
+		AB1D35191E4987480074D985 /* UIFont+MyFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MyFont.m"; sourceTree = "<group>"; };
+		AB1D351A1E4987480074D985 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AB1D351B1E4987480074D985 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		AB1D351C1E4987480074D985 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		AB1D351D1E4987480074D985 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		AB1D351E1E4987480074D985 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		AB1D351F1E4987480074D985 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		AB1D35201E4987480074D985 /* MessageImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageImageCell.h; sourceTree = "<group>"; };
+		AB1D35211E4987480074D985 /* MessageImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageImageCell.m; sourceTree = "<group>"; };
+		AB27F9AB1E45895C00D87EF6 /* MChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB27F9AF1E45895C00D87EF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB27F9B11E45895C00D87EF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB27F9B21E45895C00D87EF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB27F9B41E45895C00D87EF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB27F9B51E45895C00D87EF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB27F9B81E45895C00D87EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB27F9BA1E45895C00D87EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB27F9BD1E45895C00D87EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB27F9BF1E45895C00D87EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB27F9C41E45895C00D87EF6 /* MChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB27F9C81E45895C00D87EF6 /* MChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MChatTests.m; sourceTree = "<group>"; };
+		AB27F9CA1E45895C00D87EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB27F9CF1E45895C00D87EF6 /* MChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB27F9D31E45895C00D87EF6 /* MChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MChatUITests.m; sourceTree = "<group>"; };
+		AB27F9D51E45895C00D87EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB27F9E11E45933300D87EF6 /* SockManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SockManager.h; sourceTree = "<group>"; };
+		AB27F9E21E45933300D87EF6 /* SockManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SockManager.m; sourceTree = "<group>"; };
+		AB27F9E71E4594E600D87EF6 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		AB27F9E81E4594E600D87EF6 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		AB27F9E91E4594E600D87EF6 /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		AB398EEE1E4A241700FC4111 /* OnLineListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnLineListView.h; sourceTree = "<group>"; };
+		AB398EEF1E4A241700FC4111 /* OnLineListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnLineListView.m; sourceTree = "<group>"; };
+		AB52C1911E4CC589000C9A06 /* LTBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBarButtonItem.h; sourceTree = "<group>"; };
+		AB52C1921E4CC589000C9A06 /* LTBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBarButtonItem.m; sourceTree = "<group>"; };
+		AB8733F81E5364C1004CE722 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		AB8733F91E5364C1004CE722 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		AB89E8361E464B5500986015 /* Socket-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Socket-PrefixHeader.pch"; sourceTree = "<group>"; };
+		B8D835B0F626D940F046488D /* Pods-MChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MChatTests/Pods-MChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF73FB286782780CDAAB0F05 /* libPods-MChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11036BD319BAE25AC2A9971 /* Pods-MChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MChat/Pods-MChat.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A8DF91369949F909FB9EC0 /* libPods-MChatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MChatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D736ED1B01232FFAFC8267BC /* libPods-MChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E635B24B479340C54BFFEB2D /* Pods-MChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MChatUITests/Pods-MChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB27F9A81E45895C00D87EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEA0F29B0B775FECA2EABA6 /* libPods-MChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB27F9C11E45895C00D87EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C49A5A31786419A8CDB380F /* libPods-MChatTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB27F9CC1E45895C00D87EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE416AB6F506B1EEFC4C7118 /* libPods-MChatUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1070CCB92D833EE0F87D4F1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C11036BD319BAE25AC2A9971 /* Pods-MChat.debug.xcconfig */,
+				94C4238D9EA893F0007C3630 /* Pods-MChat.release.xcconfig */,
+				B8D835B0F626D940F046488D /* Pods-MChatTests.debug.xcconfig */,
+				96FB8ED80266F4DD18F52F1B /* Pods-MChatTests.release.xcconfig */,
+				E635B24B479340C54BFFEB2D /* Pods-MChatUITests.debug.xcconfig */,
+				14CAEE9C1A06C9E231161F62 /* Pods-MChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94EFEE927AA7DF079F319E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF73FB286782780CDAAB0F05 /* libPods-MChat.a */,
+				C7A8DF91369949F909FB9EC0 /* libPods-MChatTests.a */,
+				D736ED1B01232FFAFC8267BC /* libPods-MChatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1D34F11E4987480074D985 /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D34F21E4987480074D985 /* CustomerController.h */,
+				AB1D34F31E4987480074D985 /* CustomerController.m */,
+				AB398EEE1E4A241700FC4111 /* OnLineListView.h */,
+				AB398EEF1E4A241700FC4111 /* OnLineListView.m */,
+				AB52C1911E4CC589000C9A06 /* LTBarButtonItem.h */,
+				AB52C1921E4CC589000C9A06 /* LTBarButtonItem.m */,
+				AB1D34F41E4987480074D985 /* HCEmoji */,
+				AB1D351C1E4987480074D985 /* Message.h */,
+				AB1D351D1E4987480074D985 /* Message.m */,
+				AB1D351E1E4987480074D985 /* MessageCell.h */,
+				AB1D351F1E4987480074D985 /* MessageCell.m */,
+				AB1D35201E4987480074D985 /* MessageImageCell.h */,
+				AB1D35211E4987480074D985 /* MessageImageCell.m */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		AB1D34F41E4987480074D985 /* HCEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D34F51E4987480074D985 /* EmojiKeyboard */,
+				AB1D350E1E4987480074D985 /* HCHeader.h */,
+				AB1D350F1E4987480074D985 /* InputBar */,
+				AB1D35141E4987480074D985 /* Resources.bundle */,
+				AB1D35151E4987480074D985 /* Utils */,
+			);
+			path = HCEmoji;
+			sourceTree = "<group>";
+		};
+		AB1D34F51E4987480074D985 /* EmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D34F61E4987480074D985 /* EmojiToolBar */,
+				AB1D34F91E4987480074D985 /* EmojiView */,
+				AB1D350A1E4987480074D985 /* HCEmojiKeyboard.h */,
+				AB1D350B1E4987480074D985 /* HCEmojiKeyboard.m */,
+				AB1D350C1E4987480074D985 /* HCEmojiManager.h */,
+				AB1D350D1E4987480074D985 /* HCEmojiManager.m */,
+			);
+			path = EmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		AB1D34F61E4987480074D985 /* EmojiToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D34F71E4987480074D985 /* EmojiToolBar.h */,
+				AB1D34F81E4987480074D985 /* EmojiToolBar.m */,
+			);
+			path = EmojiToolBar;
+			sourceTree = "<group>";
+		};
+		AB1D34F91E4987480074D985 /* EmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D34FA1E4987480074D985 /* EmojiCell.h */,
+				AB1D34FB1E4987480074D985 /* EmojiCell.m */,
+				AB1D34FC1E4987480074D985 /* EmojiCollectionView.h */,
+				AB1D34FD1E4987480074D985 /* EmojiCollectionView.m */,
+				AB1D34FE1E4987480074D985 /* FunctionsView.h */,
+				AB1D34FF1E4987480074D985 /* FunctionsView.m */,
+				AB1D35001E4987480074D985 /* imageButton.h */,
+				AB1D35011E4987480074D985 /* imageButton.m */,
+				AB1D35021E4987480074D985 /* imageCell.h */,
+				AB1D35031E4987480074D985 /* imageCell.m */,
+				AB1D35041E4987480074D985 /* showImgView.h */,
+				AB1D35051E4987480074D985 /* showImgView.m */,
+				AB1D35061E4987480074D985 /* SinglePageEmojiCell.h */,
+				AB1D35071E4987480074D985 /* SinglePageEmojiCell.m */,
+				AB1D35081E4987480074D985 /* UIView+Extension.h */,
+				AB1D35091E4987480074D985 /* UIView+Extension.m */,
+			);
+			path = EmojiView;
+			sourceTree = "<group>";
+		};
+		AB1D350F1E4987480074D985 /* InputBar */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D35101E4987480074D985 /* ExpandingCell.h */,
+				AB1D35111E4987480074D985 /* ExpandingCell.m */,
+				AB1D35121E4987480074D985 /* HCInputBar.h */,
+				AB1D35131E4987480074D985 /* HCInputBar.m */,
+			);
+			path = InputBar;
+			sourceTree = "<group>";
+		};
+		AB1D35151E4987480074D985 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D35161E4987480074D985 /* UIColor+MyColor.h */,
+				AB1D35171E4987480074D985 /* UIColor+MyColor.m */,
+				AB1D35181E4987480074D985 /* UIFont+MyFont.h */,
+				AB1D35191E4987480074D985 /* UIFont+MyFont.m */,
+				AB1D351A1E4987480074D985 /* UIView+Frame.h */,
+				AB1D351B1E4987480074D985 /* UIView+Frame.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AB27F9A21E45895B00D87EF6 = {
+			isa = PBXGroup;
+			children = (
+				AB27F9AD1E45895C00D87EF6 /* MChat */,
+				AB27F9C71E45895C00D87EF6 /* MChatTests */,
+				AB27F9D21E45895C00D87EF6 /* MChatUITests */,
+				AB27F9AC1E45895C00D87EF6 /* Products */,
+				1070CCB92D833EE0F87D4F1D /* Pods */,
+				94EFEE927AA7DF079F319E67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB27F9AC1E45895C00D87EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB27F9AB1E45895C00D87EF6 /* MChat.app */,
+				AB27F9C41E45895C00D87EF6 /* MChatTests.xctest */,
+				AB27F9CF1E45895C00D87EF6 /* MChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB27F9AD1E45895C00D87EF6 /* MChat */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D34F11E4987480074D985 /* ChatViewController */,
+				AB27F9B11E45895C00D87EF6 /* AppDelegate.h */,
+				AB27F9B21E45895C00D87EF6 /* AppDelegate.m */,
+				AB27F9B41E45895C00D87EF6 /* ViewController.h */,
+				AB27F9B51E45895C00D87EF6 /* ViewController.m */,
+				AB27F9E71E4594E600D87EF6 /* RegistViewController.h */,
+				AB27F9E81E4594E600D87EF6 /* RegistViewController.m */,
+				AB27F9E91E4594E600D87EF6 /* RegistViewController.xib */,
+				AB27F9E11E45933300D87EF6 /* SockManager.h */,
+				AB27F9E21E45933300D87EF6 /* SockManager.m */,
+				AB8733F81E5364C1004CE722 /* UserModel.h */,
+				AB8733F91E5364C1004CE722 /* UserModel.m */,
+				AB27F9B71E45895C00D87EF6 /* Main.storyboard */,
+				AB27F9BA1E45895C00D87EF6 /* Assets.xcassets */,
+				AB27F9BC1E45895C00D87EF6 /* LaunchScreen.storyboard */,
+				AB27F9BF1E45895C00D87EF6 /* Info.plist */,
+				AB89E8361E464B5500986015 /* Socket-PrefixHeader.pch */,
+				AB27F9AE1E45895C00D87EF6 /* Supporting Files */,
+			);
+			path = MChat;
+			sourceTree = "<group>";
+		};
+		AB27F9AE1E45895C00D87EF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB27F9AF1E45895C00D87EF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB27F9C71E45895C00D87EF6 /* MChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB27F9C81E45895C00D87EF6 /* MChatTests.m */,
+				AB27F9CA1E45895C00D87EF6 /* Info.plist */,
+			);
+			path = MChatTests;
+			sourceTree = "<group>";
+		};
+		AB27F9D21E45895C00D87EF6 /* MChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB27F9D31E45895C00D87EF6 /* MChatUITests.m */,
+				AB27F9D51E45895C00D87EF6 /* Info.plist */,
+			);
+			path = MChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB27F9AA1E45895C00D87EF6 /* MChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB27F9D81E45895C00D87EF6 /* Build configuration list for PBXNativeTarget "MChat" */;
+			buildPhases = (
+				21041AD5692E25B077B58801 /* [CP] Check Pods Manifest.lock */,
+				AB27F9A71E45895C00D87EF6 /* Sources */,
+				AB27F9A81E45895C00D87EF6 /* Frameworks */,
+				AB27F9A91E45895C00D87EF6 /* Resources */,
+				8755A48C5F59C155B82FB11B /* [CP] Embed Pods Frameworks */,
+				C2029E3B3DAB49C9F3364D38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MChat;
+			productName = MChat;
+			productReference = AB27F9AB1E45895C00D87EF6 /* MChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB27F9C31E45895C00D87EF6 /* MChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB27F9DB1E45895C00D87EF6 /* Build configuration list for PBXNativeTarget "MChatTests" */;
+			buildPhases = (
+				454CB23EFDC3DE18ED36B82A /* [CP] Check Pods Manifest.lock */,
+				AB27F9C01E45895C00D87EF6 /* Sources */,
+				AB27F9C11E45895C00D87EF6 /* Frameworks */,
+				AB27F9C21E45895C00D87EF6 /* Resources */,
+				E05E9CC2FAC6284494642FDB /* [CP] Embed Pods Frameworks */,
+				62E149C6C5F4318D55C748C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB27F9C61E45895C00D87EF6 /* PBXTargetDependency */,
+			);
+			name = MChatTests;
+			productName = MChatTests;
+			productReference = AB27F9C41E45895C00D87EF6 /* MChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB27F9CE1E45895C00D87EF6 /* MChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB27F9DE1E45895C00D87EF6 /* Build configuration list for PBXNativeTarget "MChatUITests" */;
+			buildPhases = (
+				6A95C7AD5AB9D60BC7789443 /* [CP] Check Pods Manifest.lock */,
+				AB27F9CB1E45895C00D87EF6 /* Sources */,
+				AB27F9CC1E45895C00D87EF6 /* Frameworks */,
+				AB27F9CD1E45895C00D87EF6 /* Resources */,
+				597BEBDD2E112B6CBA1017FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB27F9D11E45895C00D87EF6 /* PBXTargetDependency */,
+			);
+			name = MChatUITests;
+			productName = MChatUITests;
+			productReference = AB27F9CF1E45895C00D87EF6 /* MChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB27F9A31E45895B00D87EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "林涛";
+				TargetAttributes = {
+					AB27F9AA1E45895C00D87EF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZR7SB94CXH;
+						ProvisioningStyle = Automatic;
+					};
+					AB27F9C31E45895C00D87EF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB27F9AA1E45895C00D87EF6;
+					};
+					AB27F9CE1E45895C00D87EF6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB27F9AA1E45895C00D87EF6;
+					};
+				};
+			};
+			buildConfigurationList = AB27F9A61E45895B00D87EF6 /* Build configuration list for PBXProject "MChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB27F9A21E45895B00D87EF6;
+			productRefGroup = AB27F9AC1E45895C00D87EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB27F9AA1E45895C00D87EF6 /* MChat */,
+				AB27F9C31E45895C00D87EF6 /* MChatTests */,
+				AB27F9CE1E45895C00D87EF6 /* MChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB27F9A91E45895C00D87EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB27F9BE1E45895C00D87EF6 /* LaunchScreen.storyboard in Resources */,
+				AB1D35301E4987480074D985 /* Resources.bundle in Resources */,
+				AB27F9BB1E45895C00D87EF6 /* Assets.xcassets in Resources */,
+				AB27F9EB1E4594E600D87EF6 /* RegistViewController.xib in Resources */,
+				AB27F9B91E45895C00D87EF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB27F9C21E45895C00D87EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB27F9CD1E45895C00D87EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21041AD5692E25B077B58801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		454CB23EFDC3DE18ED36B82A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		597BEBDD2E112B6CBA1017FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MChatUITests/Pods-MChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E149C6C5F4318D55C748C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MChatTests/Pods-MChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A95C7AD5AB9D60BC7789443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8755A48C5F59C155B82FB11B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MChat/Pods-MChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2029E3B3DAB49C9F3364D38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MChat/Pods-MChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05E9CC2FAC6284494642FDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MChatTests/Pods-MChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB27F9A71E45895C00D87EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1D35241E4987480074D985 /* EmojiCell.m in Sources */,
+				AB1D35341E4987480074D985 /* Message.m in Sources */,
+				AB8733FA1E5364C1004CE722 /* UserModel.m in Sources */,
+				AB1D35331E4987480074D985 /* UIView+Frame.m in Sources */,
+				AB1D35291E4987480074D985 /* showImgView.m in Sources */,
+				AB1D35231E4987480074D985 /* EmojiToolBar.m in Sources */,
+				AB27F9B61E45895C00D87EF6 /* ViewController.m in Sources */,
+				AB27F9B31E45895C00D87EF6 /* AppDelegate.m in Sources */,
+				AB1D35261E4987480074D985 /* FunctionsView.m in Sources */,
+				AB1D35251E4987480074D985 /* EmojiCollectionView.m in Sources */,
+				AB1D35351E4987480074D985 /* MessageCell.m in Sources */,
+				AB27F9B01E45895C00D87EF6 /* main.m in Sources */,
+				AB1D35221E4987480074D985 /* CustomerController.m in Sources */,
+				AB1D352A1E4987480074D985 /* SinglePageEmojiCell.m in Sources */,
+				AB1D352C1E4987480074D985 /* HCEmojiKeyboard.m in Sources */,
+				AB398EF01E4A241700FC4111 /* OnLineListView.m in Sources */,
+				AB27F9E31E45933300D87EF6 /* SockManager.m in Sources */,
+				AB1D352D1E4987480074D985 /* HCEmojiManager.m in Sources */,
+				AB27F9EA1E4594E600D87EF6 /* RegistViewController.m in Sources */,
+				AB1D35311E4987480074D985 /* UIColor+MyColor.m in Sources */,
+				AB1D35361E4987480074D985 /* MessageImageCell.m in Sources */,
+				AB1D352F1E4987480074D985 /* HCInputBar.m in Sources */,
+				AB1D352E1E4987480074D985 /* ExpandingCell.m in Sources */,
+				AB1D35281E4987480074D985 /* imageCell.m in Sources */,
+				AB52C1931E4CC589000C9A06 /* LTBarButtonItem.m in Sources */,
+				AB1D35321E4987480074D985 /* UIFont+MyFont.m in Sources */,
+				AB1D352B1E4987480074D985 /* UIView+Extension.m in Sources */,
+				AB1D35271E4987480074D985 /* imageButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB27F9C01E45895C00D87EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB27F9C91E45895C00D87EF6 /* MChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB27F9CB1E45895C00D87EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB27F9D41E45895C00D87EF6 /* MChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB27F9C61E45895C00D87EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB27F9AA1E45895C00D87EF6 /* MChat */;
+			targetProxy = AB27F9C51E45895C00D87EF6 /* PBXContainerItemProxy */;
+		};
+		AB27F9D11E45895C00D87EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB27F9AA1E45895C00D87EF6 /* MChat */;
+			targetProxy = AB27F9D01E45895C00D87EF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB27F9B71E45895C00D87EF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB27F9B81E45895C00D87EF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB27F9BC1E45895C00D87EF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB27F9BD1E45895C00D87EF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB27F9D61E45895C00D87EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB27F9D71E45895C00D87EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB27F9D91E45895C00D87EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11036BD319BAE25AC2A9971 /* Pods-MChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZR7SB94CXH;
+				GCC_PREFIX_HEADER = "MChat/Socket-PrefixHeader.pch";
+				INFOPLIST_FILE = MChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lintao.MChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB27F9DA1E45895C00D87EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C4238D9EA893F0007C3630 /* Pods-MChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZR7SB94CXH;
+				GCC_PREFIX_HEADER = "MChat/Socket-PrefixHeader.pch";
+				INFOPLIST_FILE = MChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lintao.MChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB27F9DC1E45895C00D87EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D835B0F626D940F046488D /* Pods-MChatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lintao.MChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MChat.app/MChat";
+			};
+			name = Debug;
+		};
+		AB27F9DD1E45895C00D87EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FB8ED80266F4DD18F52F1B /* Pods-MChatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lintao.MChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MChat.app/MChat";
+			};
+			name = Release;
+		};
+		AB27F9DF1E45895C00D87EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E635B24B479340C54BFFEB2D /* Pods-MChatUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lintao.MChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MChat;
+			};
+			name = Debug;
+		};
+		AB27F9E01E45895C00D87EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CAEE9C1A06C9E231161F62 /* Pods-MChatUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lintao.MChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB27F9A61E45895B00D87EF6 /* Build configuration list for PBXProject "MChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB27F9D61E45895C00D87EF6 /* Debug */,
+				AB27F9D71E45895C00D87EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB27F9D81E45895C00D87EF6 /* Build configuration list for PBXNativeTarget "MChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB27F9D91E45895C00D87EF6 /* Debug */,
+				AB27F9DA1E45895C00D87EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB27F9DB1E45895C00D87EF6 /* Build configuration list for PBXNativeTarget "MChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB27F9DC1E45895C00D87EF6 /* Debug */,
+				AB27F9DD1E45895C00D87EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB27F9DE1E45895C00D87EF6 /* Build configuration list for PBXNativeTarget "MChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB27F9DF1E45895C00D87EF6 /* Debug */,
+				AB27F9E01E45895C00D87EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB27F9A31E45895B00D87EF6 /* Project object */;
+}

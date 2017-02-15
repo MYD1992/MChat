@@ -1,0 +1,20 @@
+PODS:
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - MBProgressHUD (1.0.0)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - MBProgressHUD
+  - Toast
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 80a4377be284841732e32d3499b77ad39ba75fb9
+
+COCOAPODS: 1.0.1

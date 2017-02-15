@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB27F9631E44B8F100D87EF6 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB27F9621E44B8F100D87EF6 /* UserModel.m */; };
+		DF986A5B1C8FF0A900C090D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF986A5A1C8FF0A900C090D5 /* main.m */; };
+		DF986A641C8FF0C100C090D5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF986A631C8FF0C100C090D5 /* GCDAsyncSocket.m */; };
+		DF986A6A1C8FFA2E00C090D5 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = DF986A691C8FFA2E00C090D5 /* Service.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF986A551C8FF0A900C090D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB27F9611E44B8F100D87EF6 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		AB27F9621E44B8F100D87EF6 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		DF986A571C8FF0A900C090D5 /* ServiceSocket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ServiceSocket; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF986A5A1C8FF0A900C090D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF986A621C8FF0C100C090D5 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DF986A631C8FF0C100C090D5 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DF986A681C8FFA2E00C090D5 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		DF986A691C8FFA2E00C090D5 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF986A541C8FF0A900C090D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF986A4E1C8FF0A900C090D5 = {
+			isa = PBXGroup;
+			children = (
+				DF986A591C8FF0A900C090D5 /* ServiceSocket */,
+				DF986A581C8FF0A900C090D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF986A581C8FF0A900C090D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF986A571C8FF0A900C090D5 /* ServiceSocket */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF986A591C8FF0A900C090D5 /* ServiceSocket */ = {
+			isa = PBXGroup;
+			children = (
+				DF986A5A1C8FF0A900C090D5 /* main.m */,
+				DF986A681C8FFA2E00C090D5 /* Service.h */,
+				DF986A691C8FFA2E00C090D5 /* Service.m */,
+				AB27F9611E44B8F100D87EF6 /* UserModel.h */,
+				AB27F9621E44B8F100D87EF6 /* UserModel.m */,
+				DF986A611C8FF0C100C090D5 /* TCP */,
+			);
+			path = ServiceSocket;
+			sourceTree = "<group>";
+		};
+		DF986A611C8FF0C100C090D5 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				DF986A621C8FF0C100C090D5 /* GCDAsyncSocket.h */,
+				DF986A631C8FF0C100C090D5 /* GCDAsyncSocket.m */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF986A561C8FF0A900C090D5 /* ServiceSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF986A5E1C8FF0A900C090D5 /* Build configuration list for PBXNativeTarget "ServiceSocket" */;
+			buildPhases = (
+				DF986A531C8FF0A900C090D5 /* Sources */,
+				DF986A541C8FF0A900C090D5 /* Frameworks */,
+				DF986A551C8FF0A900C090D5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServiceSocket;
+			productName = ServiceSocket;
+			productReference = DF986A571C8FF0A900C090D5 /* ServiceSocket */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF986A4F1C8FF0A900C090D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Longcai;
+				TargetAttributes = {
+					DF986A561C8FF0A900C090D5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = DF986A521C8FF0A900C090D5 /* Build configuration list for PBXProject "ServiceSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF986A4E1C8FF0A900C090D5;
+			productRefGroup = DF986A581C8FF0A900C090D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF986A561C8FF0A900C090D5 /* ServiceSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF986A531C8FF0A900C090D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF986A6A1C8FFA2E00C090D5 /* Service.m in Sources */,
+				DF986A641C8FF0C100C090D5 /* GCDAsyncSocket.m in Sources */,
+				AB27F9631E44B8F100D87EF6 /* UserModel.m in Sources */,
+				DF986A5B1C8FF0A900C090D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF986A5C1C8FF0A900C090D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF986A5D1C8FF0A900C090D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF986A5F1C8FF0A900C090D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF986A601C8FF0A900C090D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF986A521C8FF0A900C090D5 /* Build configuration list for PBXProject "ServiceSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF986A5C1C8FF0A900C090D5 /* Debug */,
+				DF986A5D1C8FF0A900C090D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF986A5E1C8FF0A900C090D5 /* Build configuration list for PBXNativeTarget "ServiceSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF986A5F1C8FF0A900C090D5 /* Debug */,
+				DF986A601C8FF0A900C090D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF986A4F1C8FF0A900C090D5 /* Project object */;
+}
